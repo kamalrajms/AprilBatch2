@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Greeting() {
+export default function Greeting(props) {
   return (
     <div>
-      <h2>Greetings ...!</h2>
+      <h2>Greetings ...!---{props.first}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
         laudantium praesentium officia eaque ex cumque vel sequi voluptas
