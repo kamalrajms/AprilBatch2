@@ -2,6 +2,10 @@ import React from "react";
 import Greeting from "./Greeting";
 import DestructuringProps from "./DestructuringProps";
 import ConditionalRendering from "./ConditionalRendering";
+import ListRendering from "./ListRendering";
+import Modulestyle from "./Modulestyle";
+import ObjectStyle from "./ObjectStyle";
+import UseStateHook from "./UseStateHook";
 
 export default function App() {
   const name = "Hari";
@@ -18,6 +22,10 @@ export default function App() {
 
   return (
     <div>
+      <UseStateHook/>
+      <ObjectStyle />
+      <Modulestyle />
+      <ListRendering />
       <ConditionalRendering />
       <h2>Hello world--{name}</h2>
       <Greeting first={name} />

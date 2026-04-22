@@ -46,3 +46,47 @@
 
             Ternary operator {condition?true:false}
             logical  operator && || !
+
+22/04/2026
+
+## list rendering 
+
+    Rengering a multiple items dynamically using .map()
+
+
+## style in react.js
+
+    Golble style ------ app.css and  index.css is called as global style 
+    external style----- to create a seperate css file for  component 
+    Module  style ----- we need to create a file as eg: [filename.module.css]
+    Inline style ------ we need calla style  atteibute in html tags with {{padding:"20px"}}
+    Object  style ----- we need to declear a css  property as an object
+
+## useState()
+
+    useState is a react hook that allows you to add state (data that can change over time)
+    to a functional component.
+
+    Normally , in js function ,variables disappear after  the function runs, but in useState
+    ,react remember   values b/t re-render.
+
+    js
+    const num=3
+    update 4
+    value as 3
+
+    react
+    
+    const num=3
+    update 4  ,even funcction re-render
+
+
+    syntax:
+
+        const[state,setState]=useState(initialValue)
+
+        eg : const[count,setCount]=useState(0)
+
+        state--- tha current value  of  the state variables
+        setState--- a function that update the state
+        initialValue--- the starting value of the state

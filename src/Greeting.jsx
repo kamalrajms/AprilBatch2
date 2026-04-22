@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Greeting(props) {
   return (
-    <div>
+    <div className="greeting">
       <h2>Greetings ...!---{props.first}</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem

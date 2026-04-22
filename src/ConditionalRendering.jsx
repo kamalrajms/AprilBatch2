@@ -1,10 +1,11 @@
 import React from "react";
+import "./Condition.css";
 
 export default function ConditionalRendering() {
   const user = false;
   return (
-    <div>
-      <h2>Conditional rendering</h2>
+    <div className="Condition">
+      <h2 style={{ padding: "20px", color: "red" }}>Conditional rendering</h2>
       {user ? <h3>welcome back....</h3> : <h3>Please Login...!</h3>}
 
       <h2>Logical operator</h2>
