@@ -62,7 +62,9 @@
     Inline style ------ we need calla style  atteibute in html tags with {{padding:"20px"}}
     Object  style ----- we need to declear a css  property as an object
 
-## useState()
+27/04/2026
+
+## useState() && [form &controlled component] 
 
     useState is a react hook that allows you to add state (data that can change over time)
     to a functional component.

@@ -6,6 +6,9 @@ import ListRendering from "./ListRendering";
 import Modulestyle from "./Modulestyle";
 import ObjectStyle from "./ObjectStyle";
 import UseStateHook from "./UseStateHook";
+import DarkMode from "./Component/DarkMode";
+import Field from "./Component/Field";
+import RegForm from "./Component/RegForm";
 
 export default function App() {
   const name = "Hari";
@@ -22,7 +25,10 @@ export default function App() {
 
   return (
     <div>
-      <UseStateHook/>
+      <RegForm />
+      <Field />
+      <DarkMode />
+      <UseStateHook />
       <ObjectStyle />
       <Modulestyle />
       <ListRendering />
