@@ -7,12 +7,14 @@ export default function RegForm() {
     age: "",
   });
 
-  const handleChange=(e)=>{
+  const handleChange = (e) => {
+    const { name, value } = e.target;
     setFormdata({
-        ...formData,            //previous data
-        [e.target.name]:e.target.value   // updated data
-    })
-  }
+      ...formData, //previous data
+      // [e.target.name]:e.target.value
+      [name]: value, // updated data
+    });
+  };
 
   return (
     <div>
