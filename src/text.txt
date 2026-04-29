@@ -110,3 +110,17 @@
             },[dependency 1, dependency 2.....])
 
             []--- dependency is empty means ,useEffect will  execute only once at begining.
+
+
+## domain
+
+    .com --- commercial
+    .org --- Organization
+    .net --- Network
+    .edu --- Education
+    .gov --- Government
+    .mil --- Military
+    .co  --- Company
+    .info -- information
+    .biz --- Business
+    .in  --- india

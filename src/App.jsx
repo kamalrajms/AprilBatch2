@@ -12,6 +12,8 @@ import RegForm from "./Component/RegForm";
 import ConditionalForm from "./Component/ConditionalForm";
 import UseeffectHook from "./Component/UseeffectHook";
 import Timer from "./Component/Timer";
+import StopWatch from "./Component/StopWatch";
+import UseeffectAPI from "./Component/UseeffectAPI";
 
 export default function App() {
   const name = "Hari";
@@ -28,9 +30,11 @@ export default function App() {
 
   return (
     <div>
-      <Timer/>
-      <UseeffectHook/>
-      <ConditionalForm/>
+      <UseeffectAPI />
+      <StopWatch />
+      <Timer />
+      <UseeffectHook />
+      <ConditionalForm />
       <RegForm />
       <Field />
       <DarkMode />
