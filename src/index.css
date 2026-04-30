@@ -15,3 +15,20 @@
 .moduleSyle {
   margin: 200px;
 }
+
+/* useref */
+
+.Image-box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
+  background-color: aqua;
+}
+
+.org-img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  cursor: pointer;
+}

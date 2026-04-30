@@ -14,6 +14,7 @@ import UseeffectHook from "./Component/UseeffectHook";
 import Timer from "./Component/Timer";
 import StopWatch from "./Component/StopWatch";
 import UseeffectAPI from "./Component/UseeffectAPI";
+import UserefHook from "./Component/UserefHook";
 
 export default function App() {
   const name = "Hari";
@@ -30,6 +31,7 @@ export default function App() {
 
   return (
     <div>
+      <UserefHook />
       <UseeffectAPI />
       <StopWatch />
       <Timer />

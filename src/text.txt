@@ -93,7 +93,7 @@
         setState--- a function that update the state
         initialValue--- the starting value of the state
 
-28/4/2026
+28/4/2026 && 29/04/2026
 
 ## useEffect()
 
@@ -124,3 +124,18 @@
     .info -- information
     .biz --- Business
     .in  --- india
+
+
+30/04/2026
+
+## useRef()
+
+    Useref() is a react hook that gives you a box (.current) you can store anything in-
+    like num,str,obj,function,even DOM element.
+
+    That value persists b/w rwnder.
+
+    Updating it does not cause your component to re-render.
+
+
+    {current:value}
