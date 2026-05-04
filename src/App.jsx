@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, createContext, useState } from "react";
 import Greeting from "./Greeting";
 import DestructuringProps from "./DestructuringProps";
 import ConditionalRendering from "./ConditionalRendering";
@@ -15,6 +15,10 @@ import Timer from "./Component/Timer";
 import StopWatch from "./Component/StopWatch";
 import UseeffectAPI from "./Component/UseeffectAPI";
 import UserefHook from "./Component/UserefHook";
+import First from "./Context/First";
+import ContextForm from "./Context/ContextForm";
+
+export const Pass = createContext();
 
 export default function App() {
   const name = "Hari";
@@ -29,8 +33,24 @@ export default function App() {
   const area3 = "madurai";
   const number3 = "6040555555";
 
+  const [theme, setTheme] = useState("light");
+  const data = { name: "React" };
+  console.log(theme);
+  
+
   return (
     <div>
+      <div style={{ padding: "20px", border: "2px solid #333" }}>
+        <Pass.Provider value={{theme, setTheme,data}}>
+          <ContextForm />
+        </Pass.Provider>
+      </div>
+      <div style={{ padding: "20px", border: "2px solid #333" }}>
+        <h2>App component---{name}</h2>
+        <Pass.Provider value={name}>
+          <First />
+        </Pass.Provider>
+      </div>
       <UserefHook />
       <UseeffectAPI />
       <StopWatch />

@@ -32,3 +32,14 @@
   border: 2px solid #333;
   cursor: pointer;
 }
+
+.light {
+  background-color: antiquewhite;
+  color: #333;
+  padding: 20px;
+}
+.black {
+  background-color: #333;
+  color: aliceblue;
+  padding: 20px;
+}
