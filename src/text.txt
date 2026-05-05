@@ -152,3 +152,22 @@
         Create a context.
         Provide a value.
         Consume the value.
+
+
+05/05/2026
+
+## useReducer()
+
+    const [state,dispatch]=useReducer(reducerFunction,initialvalue)
+
+    state--- current state Like useState.
+    dispatch(action)--- a function to tell the reducer what to do.
+    reducerFunction(state,action)--- the logic that returns a new state.
+    initialValue--- starting value.
+
+
+## sub domain
+
+    Domain = main house [example.com]
+    subDomain= a specific room inside the house [blog.example.com]
+
