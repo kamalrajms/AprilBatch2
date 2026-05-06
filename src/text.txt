@@ -171,3 +171,50 @@
     Domain = main house [example.com]
     subDomain= a specific room inside the house [blog.example.com]
 
+6/5/2026
+
+## useId ()
+
+    useId() is a react hook that created a unique and  stable ID for each  
+    component instances.
+
+
+## routing in react && nested routing
+
+    Routing means navigation b/w different pages in a web app without refreshing the  browser.
+    In traditional websites,clicking a link reloads the whole page.
+    In react   (SPA)  , routing lets us changes the view without reloading.
+
+            Better performance (no full page reload)
+            Smooth user experiance
+            Control over navigation without server request.
+
+    commend  :npm i react-router-dom
+
+
+    structure:
+
+        <BrouserRouter> 
+            <Routes>
+                <Route path="/add address path" element={<we need to call a component/>}>
+                <Route path="/home" element={<Home/>}>
+                <Route path="/about" element={<about/>}>
+                <Route path="/contact" element={<contact/>}>
+            </Route>
+        </BrouserRouter>
+
+    BrouserRouter:
+
+        it is the main wrapper component for routing in react app
+        It enables navigation using the browser 's URL (history API).
+        Without this ,routing will not work.
+
+    Routes:
+
+        IT contains all the  <Route/> component
+        It tell react router which component to  show for which path.
+        Only one route will match and render at a time
+
+    Route:
+
+        Defines  aspecific url path and which component should load for that path.

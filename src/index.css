@@ -43,3 +43,21 @@
   color: aliceblue;
   padding: 20px;
 }
+
+/* routing */
+.header {
+  width: 100vw;
+  background-color: aqua;
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sub-header {
+  width: 100vw;
+  background-color: rgb(17, 0, 255);
+  padding: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
