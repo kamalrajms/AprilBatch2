@@ -218,3 +218,17 @@
     Route:
 
         Defines  aspecific url path and which component should load for that path.
+
+
+7/05/2026
+
+## Useparam() -- routing dom
+
+        useParams() is a React Router hook that lets you read dynamic values from the URL path (not from the query string).
+
+		It’s commonly used when you have routes with dynamic segments like /users/:id or /products/:productId.
+
+
+## useNavigate() --- routing dom
+
+        By using this useNavigate we can navigate b/t component as  functionaly.
