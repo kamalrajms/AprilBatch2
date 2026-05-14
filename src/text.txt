@@ -232,3 +232,32 @@
 ## useNavigate() --- routing dom
 
         By using this useNavigate we can navigate b/t component as  functionaly.
+
+
+14/05/2026
+
+## API integration
+
+    fetch,axios
+
+    commend: npm i axios
+
+    structure of Axios:
+
+        response={
+            data:[{id:1},{id:1},{id:1}],
+            status:200,
+            header:{},
+            config:{}
+            ...
+        }
+
+## custom hook
+
+    A custom hook is a reusable function in rect that contains logic using hooks
+    (like useState,useEffect...)
+
+    It allows you to share and  reuse stateful logic b/w multiple component without 
+    repeating code .
+
+    The name of a customer hook must start with [use] , such as useFetch or useLoaction.
